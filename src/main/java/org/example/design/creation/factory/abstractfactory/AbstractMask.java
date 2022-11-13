@@ -1,0 +1,10 @@
+package org.example.design.creation.factory.abstractfactory;
+
+/**
+ * 抽象产品
+ */
+public abstract class AbstractMask {
+
+    Integer price;
+    public abstract void protectLevel();
+}
